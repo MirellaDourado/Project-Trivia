@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  background-color: #44B5A6;
+  height: 100vh;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 17px;
+}
+
+.inputs input {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+
+.App-header img {
+  width: 500px;
+  margin: 50px;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px;
+}
+
+.login-buttons button {
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-buttons button:enabled{
+  color: #44B5A6;
+  font-weight: 800;
+  border: none;
+}
+
+.login-buttons button:enabled:hover{
+  color: black;
+  background-color: #daf8f5;
+  font-weight: 800;
+  border: gray 1px solid;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
+.green-border {
+  border: 1px solid green;
+}
+
+.correct-border {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.incorrect-border {
+  border: 3px solid red;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.4rem;
+  background-color: #44B5A6;
+}
+
+header div {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+header div img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.question {
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFE488;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.answers {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  width: 50%;
+  min-height: 100px;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.answers button {
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  font-size: 20px;
+}
+
+.timer button {
+  width: 300px;
+  height: 35px;
+  font-size: 15px;
+  border: none;
+  background-color: #44B5A6;
+  cursor: pointer;
+}
+
+.feedback-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-area p:nth-of-type(1){
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.score-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-area .score-area p:nth-of-type(1), .feedback-area .score-area p:nth-of-type(3){
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.feedback-area .score-area p:nth-of-type(2), .feedback-area .score-area p:nth-of-type(4){
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.buttons-feedback-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.buttons-feedback-area button {
+  width: 400px;
+  height: 40px;
+}
+
+.buttons-feedback-area button {
+  font-weight: 800;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.ranking-area {
+  background-color: #44B5A6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ranking-area h2 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.ranking-area ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ranking-area ol li {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ranking-area button {
+  width: 400px;
+  height: 40px;
+  border: 2px #44B5A6 solid;
+  color: #44B5A6;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.configuration {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.configuration h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.configuration p {
+  text-align: center;
+  padding: 70px;
+}
+
+.configuration button {
+  width: 400px;
+  height: 40px;
+}
